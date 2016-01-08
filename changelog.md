@@ -1,10 +1,17 @@
+v2.2.8-yearview 2.2.8 (2015-06-18)
+----------------------------------
+
+- Add built version of fullcalendar.js, fullcalender.css, fullcalendar.print.css to dist directory
+
 v2.2.7-yearview 2.2.7 (2015-06-18)
+----------------------------------
 
 - Rebase changes and add yearview support for MomentJS lang switch.
   This version was made for MomentJS 2.8.4, current 2.10 will be
   added in a future release...
 
 v2.2.5-yeaview 2.0 (2015-01-18)
+-------------------------------
 
 - Port year view to v2.2.5
   yearColumns default layout is now 2 (2x6) to fit default width.
@@ -655,7 +662,7 @@ v1.4.3 (2009-12-22)
 
 - added destroy method
 - Google Calendar event pages respect currentTimezone
-- caching now handled by jQuery's ajax	
+- caching now handled by jQuery's ajax
 - protection from setting aspectRatio to zero
 - bugfixes
 	- parseISO8601 and DST caused certain events to display day before
