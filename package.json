@@ -1,6 +1,6 @@
 {
   "name": "fullcalendar",
-  "version": "2.2.9",
+  "version": "2.2.10",
   "main": "dist/fullcalendar.js",
   "repository": {
     "type": "git",
