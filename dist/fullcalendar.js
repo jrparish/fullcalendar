@@ -10093,7 +10093,7 @@ fcViews.year = View.extend({
 			s +='<td class="fc-year-monthly-td" style="' + display + '">';
 
 			s +='<div class="fc-year-monthly-name'+(monthsRow===0 ? ' fc-first' : '')+'">' +
-					'<a name="'+monthID+'" data-year="'+y+'" data-month="'+m+'" href="#">' + htmlEscape(monthName) + '</a>' +
+					'<a name="'+monthID+'" data-year="'+y+'" data-month="'+m+'" href="javascript:;">' + htmlEscape(monthName) + '</a>' +
 				'</div>';
 
 			s +='<div class="fc-row '+headerClass+'">';
